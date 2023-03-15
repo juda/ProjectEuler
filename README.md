@@ -1,1 +1,2 @@
-#这是一个Project Euler的简要解题报告，详细内容见[这里](https://www.zybuluo.com/juda/note/30784)
+My solution to project euler
+
