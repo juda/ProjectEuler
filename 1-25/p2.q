@@ -5,5 +5,5 @@ add:{x,sum -2#x}
 x:(1;1)
 while[4e6 > last x;x:add x]
 fibonacci:1_-1_x
-iseven:{$[(ceiling x%2)=(x%2);x;0]}
+iseven:{$[(x mod 2)=0;x;0]}
 answer:sum iseven each fibonacci

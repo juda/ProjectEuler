@@ -1,5 +1,5 @@
 n:(600851475143;2);
-divy:{(ceiling (first x)%(last x))=((first x)%(last x))};
+divy:{0=(first x) mod (last x)};
 isless:{(last x)<first x};
 upd_first:{((first x)%(last x);last x)};
 upd_second:{(first x;1+last x)};
